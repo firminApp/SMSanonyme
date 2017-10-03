@@ -44,7 +44,7 @@ public class InitApiparams {
                     {
                         if (response != null) {
                             Log.e(TAG, response.toString()+"");
-                            if (response.code() == 200) {
+                            if ( response.isSuccessful()) {
                                 try {
                                     String responseData = response.body().string();
                                     Log.e(TAG, responseData+"");

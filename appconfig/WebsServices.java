@@ -5,7 +5,7 @@ package com.firminapp.smsanonyme.appconfig;
  */
 
 public  final class WebsServices {
-    public static final String URL_ROOT="http://192.168.8.102/tplusbackend/web/app.php/";
+    public static final String URL_ROOT="http://192.168.150.127/tplusbackend/web/app.php/";
     //public static final String APISMS="http://193.164.133.231/playsms/index.php";
     public static final String APISMS="http://74.207.224.67/api/http/sendmsg.php";
     public static final String SIGNUP=URL_ROOT+"users";
